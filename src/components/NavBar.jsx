@@ -4,10 +4,10 @@ import { navLinks } from '../constants'
 const NavBar = () => {
   return (
     <div>
-        <ul className='flex flex-row gap-x-9'>
+        <ul className='flex flex-row gap-x-9 mr-9'>
             {navLinks.map((link) => (
                 <li key={link.id}>
-                    <a href={link.path}>{link.title}</a>
+                    <a href={link.path} className='text-white hover:text-blue'>{link.title}</a>
                 </li>
             ))}
         </ul>

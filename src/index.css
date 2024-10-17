@@ -17,3 +17,7 @@
     transform: translateX(0) !important;
     opacity: 1 !important;
   }
+
+  .hi {
+    background-color: #313a02;
+  }

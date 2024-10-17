@@ -4,6 +4,6 @@ import ghPages from 'vite-plugin-gh-pages';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/safari/', // Replace <REPO_NAME> with your GitHub repository name.
+  base: '/safari-green-building-index/', // Replace <REPO_NAME> with your GitHub repository name.
 });
 
