@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/safari_index.png"
+import logo from "../assets/safari_index-removebg-preview.png"
 
 const classes = [
     {
@@ -31,9 +31,9 @@ const Classification = () => {
         <p className='text-center w-[50vw] text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officia quod sit cumque sequi non, in quaerat, aspernatur dolorum exercitationem nam ut impedit autem! Reprehenderit harum atque ipsa eos quam.</p>
         <div className='flex flex-row gap-6 mt-3'>
             {classes.map((cls) => (
-                <div key={cls.id} className='flex flex-col gap-3 items-center'>
+                <div key={cls.id} className='flex flex-col gap-3 items-center hover:scale-110 duration-500'>
                     <img src={cls.logo} alt="class logo" />
-                    <p>{cls.points} Points</p>
+                    <p className='font-bold'>{cls.points} Points</p>
                 </div>
             ))}
         </div>
