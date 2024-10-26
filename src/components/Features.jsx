@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import image from "../assets/images.jpeg"
+
 import pic_2 from "../assets/pic_2.jpg"
 import hero_bg1 from "../assets/hero_bg1.jpg"
 
