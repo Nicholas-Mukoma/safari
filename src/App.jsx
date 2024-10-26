@@ -4,6 +4,7 @@ import Features from './components/Features'
 import Classification from './components/Classification'
 import Scoring from './components/Scoring'
 import Benefits from './components/Benefits'
+import GreenBuilding from './components/GreenBuilding'
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
     <div className='bg-tertiary'>
       <Hero />
       <Features />
-      <Benefits />
+      {/* <Benefits /> */}
+      <GreenBuilding/>
       <Classification />
       <Scoring />
     </div>

@@ -13,11 +13,11 @@ const Number = ({number}) => {
 
 const Scoring = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center px-24'>
         <h3 className='text-primary font-bold text-3xl m-6'>
             Scoring Methodology
         </h3>
-        <p className='text-center w-[60vw] text-lg'>
+        <p className='text-start w-full text-lg'>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto ea corrupti modi accusantium beatae, quia sed autem facere sit corporis et obcaecati, saepe illum, voluptate sunt atque. Eaque, odio accusamus!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto ea corrupti modi accusantium beatae, quia sed autem facere sit corporis et obcaecati, saepe illum, voluptate sunt atque. Eaque, odio accusamus!
         </p>
         <div className='mt-12 flex flex-row gap-x-24 w-full px-9 items-center justify-center'>

@@ -56,9 +56,9 @@ const Features = () => {
         <div className='flex xl:flex-row flex-col justify-center gap-9 xl:gap-0 items-center mt-6 xl:mt-24 overflow-hidden' ref={(el) => (refs.current[0] = el)}>
             {/* text */}
             <div className='flex flex-col items-start gap-6 mr-auto'>
-                <h2 className='text-white text-3xl font-bold'>Why <span className='text-white'>Green Buildings</span></h2>
-                <p className='w-full xl:min-w-[30vw] xl:w-[30vw] text-wrap text-lg text-start text-ellipsis text-black xl:leading-9'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci perspiciatis voluptatem! Laborum neque iusto illo doloribus explicabo soluta modi temporibus unde voluptatum numquam! Aperiam necessitatibus eaque iste excepturi.
+                <h2 className='text-white text-3xl font-bold'>Puropse <span className='text-white'>Of The Tool</span></h2>
+                <p className='w-full xl:min-w-[40vw] xl:w-[40vw] text-wrap text-lg text-start text-ellipsis text-black xl:leading-9'>
+                The Safari Green Building Index (SGBI) aims to address the pressing environmental and sustainability challenges prevalent in the construction industry within the East African region, particularly Kenya. The construction sector accounts for a significant portion of global energy consumption and greenhouse gas emissions, along with substantial resource depletion and waste generation. In Kenya, rapid urbanization and infrastructure development exacerbate these issues, necessitating a shift towards more sustainable building practices.
                 </p>
                 <button className=' flex px-3 py-2 gap-3 items-center bg-white hover:bg-blue rounded-md duration-500 font-bold'>
                   Learn More
@@ -71,19 +71,20 @@ const Features = () => {
             <div className='ml-auto last-child'
             
             >
-                <img src={hero_bg1} alt="lesson image" className=' w-full xl:w-[45vw] h-[60vh] object-cover rounded-xl'/>
+                <img src={hero_bg1} alt="lesson image" className=' w-full xl:w-[40vw] h-[60vh] object-cover rounded-xl'/>
             </div>
         </div>
 
         {/* IDE */}
         <div className='flex xl:flex-row flex-col-reverse justify-center gap-9 xl:gap-0 items-center mt-6 xl:mt-24 overflow-hidden' ref={(el) => (refs.current[1] = el)}>
             <div className='mr-auto first-child'>
-                <img src={pic_2} alt="lesson image" className='w-full h-[60vh] xl:w-[45vw] object-cover rounded-xl'/>
+                <img src={pic_2} alt="lesson image" className='w-full h-[60vh] xl:w-[40vw] object-cover rounded-xl'/>
             </div>
             <div className='flex flex-col items-start gap-6  ml-auto'>
-                <h2 className='text-white text-3xl font-bold'>Purpose <span className='text-white'>of the Tool</span></h2>
-                <p className='w-full xl:min-w-[30vw] xl:w-[30vw] text-wrap text-lg text-start text-ellipsis text-black xl:leading-9'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci perspiciatis voluptatem! Laborum neque iusto illo doloribus explicabo soluta modi temporibus unde voluptatum numquam! Aperiam necessitatibus eaque iste excepturi.
+                <h2 className='text-white text-3xl font-bold'>Why <span className='text-white'>SGBI?</span></h2>
+                <p className='w-full xl:min-w-[40vw] xl:w-[40vw] text-wrap text-lg text-start text-ellipsis text-black xl:leading-9'>
+                Safari Green Building Index (SGBI) distinguishes itself from competing solutions such as EDGE, BREEAM, and LEED by offering a simplified, cost-effective, and accessible approach to green building certification tailored specifically for the East African context, particularly aligning with Kenya's affordable housing program.
+                Our competitive advantage lies in key areas such as <span className='font-bold text-lg text-start'>Simplicity, Cost Effectiveness, Local Relevance and Adaptability, Support for Affordable Housing Program</span>
                 </p>
                 <button className=' flex px-3 py-2 gap-3 items-center bg-white hover:bg-blue rounded-md duration-500 font-bold'>
                   <div>
@@ -98,9 +99,9 @@ const Features = () => {
         {/* Projects */}
         <div className='flex xl:flex-row flex-col justify-center gap-9 xl:gap-0 items-center mt-6 xl:mt-24 overflow-hidden mb-12' ref={(el) => (refs.current[2] = el)}>
             <div className='flex flex-col items-start gap-6 mr-auto'>
-                <h2 className='text-white text-3xl font-bold'>Scope <span className='text-white'>of the Tool</span></h2>
-                <p className='w-full xl:min-w-[30vw] xl:w-[30vw] text-wrap text-lg text-start text-ellipsis text-black xl:leading-9'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci perspiciatis voluptatem! Laborum neque iusto illo doloribus explicabo soluta modi temporibus unde voluptatum numquam! Aperiam necessitatibus eaque iste excepturi.
+                <h2 className='text-white text-3xl font-bold'>Social Impact</h2>
+                <p className='w-full xl:min-w-[40vw] xl:w-[40vw] text-wrap text-lg text-start text-ellipsis text-black xl:leading-9'>
+                The Safari Green Building Index (SGBI) is poised to have a profound social impact on communities in Kenya and the broader East African (EA) region by fostering sustainable development, improving living standards, and promoting social equity. Some of the key social impacts of SGBI include, <span className='font-bold text-lg'>Improved Quality of Life, Affordable Housing, Job Creation and Economic opportunities, Education and Awareness, Social Inclusion and Equity</span>
                 </p>
                 <button className=' flex px-3 py-2 gap-3 items-center bg-white hover:bg-blue rounded-md duration-500 font-bold'>
                   Learn more
@@ -111,7 +112,7 @@ const Features = () => {
             </div>
             {/* image */}
             <div className='ml-auto last-child'>
-                <img src={hero_bg1} alt="lesson image" className='w-full h-[60vh] xl:w-[45vw] object-cover rounded-xl'/>
+                <img src={hero_bg1} alt="lesson image" className='w-full h-[60vh] xl:w-[40vw] object-cover rounded-xl'/>
             </div>
         </div>
     </div>
